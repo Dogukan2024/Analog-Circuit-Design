@@ -48,9 +48,6 @@ Each chapter focuses on one functional building block of the transceiver.
 (From: Chapter 3 report :contentReference[oaicite:1]{index=1})
 
 - Non-inverting amplifier with gain:  
-  \[
-  A_v = 1 + \frac{R15}{R14}
-  \]
 - Lower & upper cutoff frequencies using C12/R13 and C13/R15  
 - Full transfer function derived using nodal analysis  
 - MATLAB frequency response simulation  
@@ -64,17 +61,8 @@ Each chapter focuses on one functional building block of the transceiver.
 (From: Chapter 4 report :contentReference[oaicite:2]{index=2})
 
 - Two-stage IF amplifier using **KSP10 high-frequency NPN**  
-- Bias design based on:
-  - Collector current: 2–8 mA (stage 1), 5–10 mA (stage 2)  
-  - VCE = VCC/2 = 6 V  
-  - β ≈ 110  
-- Calculations for:
-  - Rc, R1, Rf  
-  - DC blocking capacitor C1 and bypass capacitor C2  
-- LTSpice:
-  - DC operating point  
-  - Input impedance at 15 MHz  
-  - Voltage gain in dB  
+- Bias design  
+- LTSpice 
 - Cascading effect analysis (loading between stages)
 
 ---
@@ -86,9 +74,6 @@ Each chapter focuses on one functional building block of the transceiver.
 - Modulated supply voltage using PNP transistor Q31  
 - Impedance-matching network using **coupled inductors (L1, L2) + C37**  
 - Optimal load resistance:  
-  \[
-  R_{opt} = \frac{V_{CE}}{I_C}
-  \]
 - LTSpice analysis of matching network  
 - Transient simulation of transmit signal  
 - Safe operating limits for the 2N2222 power transistor  
@@ -104,9 +89,6 @@ Each chapter focuses on one functional building block of the transceiver.
 - Frequency pulling using series capacitor  
 - Two-crystal narrow-band IF filter design (bandwidth ~4–5 kHz)  
 - Inverter impedance calculation:
-  \[
-  X = R_o + r_s
-  \]
 - Transformer design for proper termination  
 - Tuning capacitor for IF transformer primary  
 
@@ -120,9 +102,6 @@ Each chapter focuses on one functional building block of the transceiver.
 - Resonant circuit tuning at 15 MHz  
 - RC low-pass filtering  
 - Detector output voltage:
-  \[
-  V_{ed} = 6 + I_{dc} R_{65}
-  \]
 
 ### AGC System
 - PIN diode attenuation control  
@@ -151,9 +130,6 @@ Each chapter focuses on one functional building block of the transceiver.
 
 - Monopole antenna reactance calculation  
 - Radiation resistance formula:
-  \[
-  R_{rr} \approx 40 \pi^2 \left( \frac{l}{\lambda} \right)^2
-  \]
 - Series resonance tuning using custom-wound inductor  
 - SMA connector installation  
 - Resonance dip measurement at 27 MHz  
