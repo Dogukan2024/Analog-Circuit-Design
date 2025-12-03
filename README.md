@@ -31,7 +31,6 @@ Each chapter focuses on one functional building block of the transceiver.
 # 📘 Lab Summaries
 
 ## **Lab 2 – Oscilloscope Probe & Voltage Regulator**  
-(From: Chapter 2 report :contentReference[oaicite:0]{index=0})
 
 - Probe attenuation ratios (1:1 and 10:1)  
 - Required resistances to achieve accurate 10:1 attenuation  
@@ -45,7 +44,6 @@ Each chapter focuses on one functional building block of the transceiver.
 ---
 
 ## **Lab 3 – Microphone Amplifier (LM358)**  
-(From: Chapter 3 report :contentReference[oaicite:1]{index=1})
 
 - Non-inverting amplifier with gain:  
 - Lower & upper cutoff frequencies using C12/R13 and C13/R15  
@@ -58,7 +56,6 @@ Each chapter focuses on one functional building block of the transceiver.
 ---
 
 ## **Lab 4 – IF Amplifier Design (15 MHz)**  
-(From: Chapter 4 report :contentReference[oaicite:2]{index=2})
 
 - Two-stage IF amplifier using **KSP10 high-frequency NPN**  
 - Bias design  
@@ -68,7 +65,6 @@ Each chapter focuses on one functional building block of the transceiver.
 ---
 
 ## **Lab 5 – Transmitter Power Amplifier (2N2222)**  
-(From: Chapter 5 report :contentReference[oaicite:3]{index=3})
 
 - Class-A RF power amplifier  
 - Modulated supply voltage using PNP transistor Q31  
@@ -82,7 +78,6 @@ Each chapter focuses on one functional building block of the transceiver.
 ---
 
 ## **Lab 6 – Crystal Characterization & IF Filter**  
-(From: Chapter 6 report :contentReference[oaicite:4]{index=4})
 
 - Resonant frequency measurement (fs)  
 - Series resistance (rs), Q factor, motional inductance (Ls) & capacitance (Cs)  
@@ -95,7 +90,6 @@ Each chapter focuses on one functional building block of the transceiver.
 ---
 
 ## **Lab 7 – Envelope Detector & Automatic Gain Control (AGC)**  
-(From: Chapter 7 report :contentReference[oaicite:5]{index=5})
 
 ### Envelope Detector (1N4148)
 - DC bias calculation  
@@ -113,7 +107,6 @@ Each chapter focuses on one functional building block of the transceiver.
 ---
 
 ## **Lab 8 – Transmitter Oscillator (27 MHz)**  
-(From: Chapter 8 report :contentReference[oaicite:6]{index=6})
 
 - Colpitts crystal oscillator using **BC238B** transistor  
 - Bias design: IE = 4–6 mA  
@@ -126,7 +119,6 @@ Each chapter focuses on one functional building block of the transceiver.
 ---
 
 ## **Lab 9 – Monopole Antenna & Tuning Network**  
-(From: Chapter 9 report :contentReference[oaicite:7]{index=7})
 
 - Monopole antenna reactance calculation  
 - Radiation resistance formula:
