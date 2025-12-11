@@ -169,18 +169,10 @@ Each chapter focuses on one functional building block of the transceiver.
   - Lab8_Transmitter_Oscillator.pdf
   - Lab9_Antenna_Tuning.pdf
 
-/Schematics
-  - LTSpice circuits
-  - Diagrams and netlists
-
-/Measurements
-  - Oscilloscope screenshots
-  - Frequency plots
-  - MATLAB simulations
 ```
 
 
 # 🙌 Acknowledgements
 
-This work is based on the EE2xx Analog Communication Systems Laboratory at **Bilkent University**, following guided experiments that collectively build the TRC-11 radio transceiver.
+This work is based on the EE211 Analog Circuit Design Laboratory at Bilkent University, following guided experiments that collectively build the TRC-11 radio transceiver.
 
